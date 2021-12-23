@@ -1,0 +1,39 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+a {
+  text-decoration: none;
+}
+
+input {
+  border: none;
+  width: 100%;
+}
+
+input:focus {
+  border: none;
+}
